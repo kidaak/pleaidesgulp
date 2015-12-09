@@ -113,6 +113,14 @@ add_action( 'widgets_init', 'pleiadesgulp_widgets_init' );
 /**
  * Enqueue scripts and styles.
  */
+ 
+ // FONTS
+ wp_enqueue_style('pleiadesgulp-fonts', 'https://fonts.googleapis.com/css?family=Titillium+Web:400,300,200,600,700,400italic,300italic|Roboto+Slab:400,100,300,700');
+ wp_enqueue_style('pleiadesresp-fontawesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css');
+ 
+ 
+ 
+ 
 function pleiadesgulp_scripts() {
 	wp_enqueue_style( 'pleiadesgulp-style', get_stylesheet_uri() );
 

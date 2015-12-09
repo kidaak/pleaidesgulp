@@ -1,0 +1,27 @@
+{
+  "name": "pleiadesgulp",
+  "version": "1.0.0",
+  "description": "Pleiades theme based on gulp, compass, susy...",
+  "main": "index.php",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pleiadesdigital/pleaidesgulp.git"
+  },
+  "keywords": [
+    "gulp",
+    "compass",
+    "sass",
+    "susy",
+    "responsive"
+  ],
+  "author": "Ronaldo Ortiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pleiadesdigital/pleaidesgulp/issues"
+  },
+  "homepage": "https://github.com/pleiadesdigital/pleaidesgulp#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-util": "^3.0.7"
+  }
+}
